@@ -285,6 +285,7 @@ lint/tmp/
 *.ori
 *.orig
 *.tmp
+*.h5
 
 ##### GPG
 secring.*
