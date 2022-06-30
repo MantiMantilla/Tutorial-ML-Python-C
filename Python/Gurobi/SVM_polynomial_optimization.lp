@@ -1,0 +1,108 @@
+\ Model SVM_QP
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ [ 2 w_0 ^2 + 2 w_1 ^2 ] / 2 
+Subject To
+ Producto_punto_0: 1.412815948526553 w_0 + 1.530334696096619 w_1 - sesgo
+   >= 1
+ Producto_punto_1: 1.81336135324897 w_0 + 1.631130702167393 w_1 - sesgo
+   >= 1
+ Producto_punto_2: - 1.432892713634691 w_0 - 4.376792337344087 w_1 + sesgo
+   >= 1
+ Producto_punto_3: - 1.872717522441059 w_0 - 4.180692369188909 w_1 + sesgo
+   >= 1
+ Producto_punto_4: 2.095177854862779 w_0 + 1.079146798581806 w_1 - sesgo
+   >= 1
+ Producto_punto_5: 2.738907932158858 w_0 + 0.1567681677257453 w_1 - sesgo
+   >= 1
+ Producto_punto_6: 3.185157939666631 w_0 + 0.089008223252469 w_1 - sesgo
+   >= 1
+ Producto_punto_7: 2.06156753386537 w_0 + 1.969185956281438 w_1 - sesgo
+   >= 1
+ Producto_punto_8: 2.038358184429685 w_0 + 1.154662782256187 w_1 - sesgo
+   >= 1
+ Producto_punto_9: 0.0474920358285125 w_0 - 5.474252564587464 w_1 + sesgo
+   >= 1
+ Producto_punto_10: - 1.714444486983127 w_0 - 5.025215236719037 w_1 + sesgo
+   >= 1
+ Producto_punto_11: - 0.2245928625165393 w_0 - 4.770281540947536 w_1
+   + sesgo >= 1
+ Producto_punto_12: - 1.069238533964645 w_0 - 4.530684839209695 w_1 + sesgo
+   >= 1
+ Producto_punto_13: 1.532789231923749 w_0 + 0.5503538610792875 w_1 - sesgo
+   >= 1
+ Producto_punto_14: - 1.494931797862198 w_0 - 3.858488315204525 w_1 + sesgo
+   >= 1
+ Producto_punto_15: - 1.164110699537036 w_0 - 3.791329883867355 w_1 + sesgo
+   >= 1
+ Producto_punto_16: - 0.7438739881017237 w_0 - 4.122405677103188 w_1
+   + sesgo >= 1
+ Producto_punto_17: 2.296672506139407 w_0 + 0.4867776053737489 w_1 - sesgo
+   >= 1
+ Producto_punto_18: - 0.4435986299684275 w_0 - 3.115309446514034 w_1
+   + sesgo >= 1
+ Producto_punto_19: - 0.9143387674703604 w_0 - 4.550146428611414 w_1
+   + sesgo >= 1
+ Producto_punto_20: 1.6746742652243 w_0 + 0.680018960345654 w_1 - sesgo
+   >= 1
+ Producto_punto_21: 2.269087359737519 w_0 + 1.321607560853106 w_1 - sesgo
+   >= 1
+ Producto_punto_22: 1.510888502802933 w_0 + 0.9288308974156202 w_1 - sesgo
+   >= 1
+ Producto_punto_23: 1.651791252767307 w_0 + 0.6819317630136121 w_1 - sesgo
+   >= 1
+ Producto_punto_24: 2.4927218587394 w_0 + 0.9750534063923832 w_1 - sesgo
+   >= 1
+ Producto_punto_25: - 2.33812285293906 w_0 - 3.431167922689131 w_1 + sesgo
+   >= 1
+ Producto_punto_26: - 0.670478769495503 w_0 - 4.040942746481679 w_1 + sesgo
+   >= 1
+ Producto_punto_27: 0.5555238109539522 w_0 - 4.695958484712606 w_1 + sesgo
+   >= 1
+ Producto_punto_28: 2.16172320678513 w_0 + 0.6565950982129798 w_1 - sesgo
+   >= 1
+ Producto_punto_29: - 2.096804872636476 w_0 - 3.717420599522543 w_1 + sesgo
+   >= 1
+ Producto_punto_30: 2.180232508278994 w_0 + 1.483647081828165 w_1 - sesgo
+   >= 1
+ Producto_punto_31: - 0.4389901418302897 w_0 - 4.535928826163947 w_1
+   + sesgo >= 1
+ Producto_punto_32: - 1.242588018193751 w_0 - 4.50399192387295 w_1 + sesgo
+   >= 1
+ Producto_punto_33: - 0.00793137 w_0 - 4.176143159320008 w_1 + sesgo >= 1
+ Producto_punto_34: - 1.895937607161569 w_0 - 5.185402589388561 w_1 + sesgo
+   >= 1
+ Producto_punto_35: 1.868336002156454 w_0 + 0.9313628652757842 w_1 - sesgo
+   >= 1
+ Producto_punto_36: 2.13141477705505 w_0 + 1.138857278004758 w_1 - sesgo
+   >= 1
+ Producto_punto_37: - 1.062696221243022 w_0 - 5.176351431626175 w_1 + sesgo
+   >= 1
+ Producto_punto_38: 2.334664985271154 w_0 - 0.0240825518283974 w_1 - sesgo
+   >= 1
+ Producto_punto_39: - 0.6697869960051712 w_0 - 3.595408016974943 w_1
+   + sesgo >= 1
+ Producto_punto_40: 1.077148513253251 w_0 + 1.175333013253401 w_1 - sesgo
+   >= 1
+ Producto_punto_41: - 1.546323129061849 w_0 - 4.212973002469771 w_1 + sesgo
+   >= 1
+ Producto_punto_42: 1.567379752206206 w_0 - 0.1381059014610693 w_1 - sesgo
+   >= 1
+ Producto_punto_43: 1.356177616962864 w_0 + 1.438159552110449 w_1 - sesgo
+   >= 1
+ Producto_punto_44: - 1.003725188927363 w_0 - 4.19147701743289 w_1 + sesgo
+   >= 1
+ Producto_punto_45: 1.292976522341438 w_0 + 1.479301684832743 w_1 - sesgo
+   >= 1
+ Producto_punto_46: 2.948218837710238 w_0 + 2.035197165556287 w_1 - sesgo
+   >= 1
+ Producto_punto_47: - 0.3471382995062395 w_0 - 3.451776565141005 w_1
+   + sesgo >= 1
+ Producto_punto_48: 2.762535264128668 w_0 + 0.7897087584505262 w_1 - sesgo
+   >= 1
+ Producto_punto_49: - 0.7675227889508035 w_0 - 4.397596708910778 w_1
+   + sesgo >= 1
+Bounds
+ w_0 free
+ w_1 free
+End
